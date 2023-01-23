@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-color: #000;
+    color: #000;
+    
+}
+.logo img{
+ max-width: 150px;
+}
+.container{
+    background-color: #fff;
+    min-width: 370px;
+    padding: 25px 45px;
+    border-radius: 5px;
+}
+h1{
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    margin-bottom: 10px;
+}
+textarea{
+    padding: 8px 10px;
+    height: 110px;
+    font-size: 20px;
+    outline: none;
+    resize: none;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-family: 'Solitreo', cursive;
+    width: 100%;
+   
+}
+button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 900; 
+    cursor: pointer;
+}
+
+/* for tablets */
+@media(min-width:768px){  
+    .container{
+    min-width: 744px;
+    }
+    textarea{
+        width: 100%;
+    }
+}
